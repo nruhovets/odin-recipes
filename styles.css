@@ -1,0 +1,41 @@
+*{
+    background-color:#FDC5F5;
+}
+
+*:visited{
+    color: #8093f1;
+}
+
+*:link{
+    color:#72ddf7;
+}
+
+#top-header{
+    text-align: center;
+    font-size: 52px;
+    color: #b388eb;
+    padding: 1%;
+
+}
+
+.recipe-matrix__item{
+    font-size: 26px;
+}
+
+.recipe-matrix .recipe-matrix__item:nth-child(3n+1){
+    float: left;
+    width:33.33333%;
+    text-align:left;
+}
+
+.recipe-matrix .recipe-matrix__item:nth-child(3n+2){
+    float: left;
+    width:33.33333%;
+    text-align:center;
+}
+
+.recipe-matrix .recipe-matrix__item:nth-child(3n+3){
+    float: left;
+    width:33.33333%;
+    text-align:right;
+}
