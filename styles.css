@@ -1,5 +1,8 @@
-*{
-    background-color:#FDC5F5;
+body{
+    background-image: url(./images/clouds.jpeg);
+    background-color:rgb(253, 197, 245, 0.6);
+    background-blend-mode: lighten;
+    background-size: cover;
 }
 
 *:visited{
